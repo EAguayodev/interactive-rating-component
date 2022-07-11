@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@500;700&display=swap');
+
+*, 
+*:before, 
+*:after{
+    box-sizing: border-box;
+}
+
+body, h2, p{
+    margin: 0;
+}
+
+h2{
+    font-weight: 700;
+}
+
+body{
+    min-height: 100vh;
+    line-height: 1.5;
+    background-color: hsl(216, 12%, 8%);
+    color: #fff;
+    display: grid;
+    place-items: center;
+    font-size: 15px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+button{
+    background-color: transparent;
+    border: transparent;
+}
+
+.box__container{
+    max-width: 25rem;
+    background-color: hsl(213, 19%, 18%);
+    padding: 1.5rem;
+    border-radius: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.box__container>*:not(div:first-child) {
+    margin-top: 1rem;
+}
+
+.img-container, .btn-rating{
+    width: 2rem;
+    aspect-ratio: 1;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box__container p{
+    color: #fff;
+
+}
+
+/* .star-icon {
+    
+} */
+
+.rating-btn-container {
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+}
+
+.btn-rating {
+    width: 2.5rem;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-rating:hover{
+    background-color: hsl(216, 12%, 54%);
+    font-weight: 700;
+}
+
+.btn-rating[aria-selected="true"]{
+    background-color: hsl(25, 97%, 53%);
+    font-weight: 700;
+}
+
+.submit-btn {
+    width: 100%;
+    border-radius: 1.5rem;
+    background-color: hsl(25, 97%, 53%);
+    padding-block: 0.35rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.submit-btn:hover{
+    background-color: hsl(0, 30%, 96%);
+    color: #000;
+}
+
+.thank-you-container {
+    padding-inline: 2.5em;
+        text-align: center;
+}
+
+.thank-you-container img{
+    margin-inline: auto;
+    max-width: 50%;
+}
+
+.thank-you-container p{
+    font-size: 0.78rem;
+}
+
+.rating__result {
+    background-color: hsl(213, 19%, 18%);
+    color: orange;
+    max-width: 51%;
+    padding-block: 0.2em;
+    margin-inline: auto;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 280px){
+    .box__container{
+        max-width: 17rem;
+        margin-inline: auto;
+    }
+
+    .rating__result{
+        max-width: 75%;
+    }
+}
