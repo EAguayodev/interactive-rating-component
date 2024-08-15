@@ -1,6 +1,5 @@
 # Frontend Mentor - Interactive rating component solution
 
-<!-- This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.  -->
 
 ## Table of contents
 
@@ -27,14 +26,12 @@
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
-  For this challenge my process in included using jus the three basics of html5, css3, Javascript(es6). MY c
+  For this challenge my process in included using just the three basics of html5, css3, Javascript(ES6).
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
+- HTML5
+- CSS
 - Desktop-first workflow
-- Javascript
 
 ### What I learned
 
@@ -72,10 +69,6 @@ btns.forEach((btn) => {
 
 ## Author
 
-- Website - [Eric Aguayo](https://www.your-site.com)
-- Frontend Mentor - [@EricAguayo90](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Eric Aguayo](https://www.ericaguayo.com)
+- Frontend Mentor - [@EAguayodev](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@EricAguayo13](https://www.twitter.com/yourusername)
-
-## Acknowledgments
-
-Just wanted to give an acknowlegement to Irvine Mesa who made a youtube video walkthrough of himself completing the challenge.

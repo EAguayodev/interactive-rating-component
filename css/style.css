@@ -35,15 +35,16 @@ button{
 }
 
 .box__container{
-    max-width: 25rem;
+    max-width: 25.75rem;
     background-color: hsl(213, 19%, 18%);
     padding: 1.5rem;
     border-radius: 1.2rem;
     margin-bottom: 1rem;
+    height: 26rem;
 }
 
 .box__container>*:not(div:first-child) {
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .img-container, .btn-rating{
@@ -57,7 +58,8 @@ button{
 }
 
 .box__container p{
-    color: #fff;
+    color: lightgray;
+    width: 20.563rem;
 
 }
 
@@ -75,11 +77,13 @@ button{
     width: 2.5rem;
     color: #fff;
     cursor: pointer;
+    background-color: hsl(213, 21%, 30%);
     transition: all 0.3s ease-in-out;
 }
 
 .btn-rating:hover{
-    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(213, 19%, 18%);
     font-weight: 700;
 }
 
@@ -92,8 +96,9 @@ button{
     width: 100%;
     border-radius: 1.5rem;
     background-color: hsl(25, 97%, 53%);
-    padding-block: 0.35rem;
-    color: #fff;
+    padding-block: 1rem;
+    color: hsl(216, 12%, 8%);
+    font-weight: 600;
     text-transform: uppercase;
     font-size: 0.8rem;
     letter-spacing: 0.1em;
